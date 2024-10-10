@@ -1,0 +1,12 @@
+
+/* Styl responsywny */
+@media (max-width: 768px) {
+    .offer-container {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
