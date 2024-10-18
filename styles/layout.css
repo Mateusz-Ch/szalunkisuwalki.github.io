@@ -52,7 +52,7 @@ nav .container {
 
 /* Header */
 header {
-    background-image:  url('images/tlo-naglowka.png'); /* Ścieżka do obrazu */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/tlo-naglowka.png'); /* Ścieżka do obrazu */
     background-size: cover; /* Dopasowanie obrazu do rozmiaru nagłówka */
     background-position: center; /* Centrowanie obrazu */
     background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
@@ -61,6 +61,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    -ms-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/tlo-naglowka.png');
 }
 
 header h1 {
