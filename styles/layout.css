@@ -52,7 +52,7 @@ nav .container {
 
 /* Header */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/tlo-naglowka.png'); /* Ścieżka do obrazu */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/tlo-naglowka.png'); /* Ścieżka do obrazu */
     background-size: cover; /* Dopasowanie obrazu do rozmiaru nagłówka */
     background-position: center; /* Centrowanie obrazu */
     background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
