@@ -9,4 +9,13 @@
         display: block;
         margin: 10px 0;
     }
+
+    .contact-content {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #map, #contact-info {
+        width: 45%;
+    }
 }

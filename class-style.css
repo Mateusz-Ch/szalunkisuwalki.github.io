@@ -1,4 +1,8 @@
 /* Ogólny styl */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
@@ -113,13 +117,7 @@ section {
     color: #004080;
 }
 
-/* Stopka */
-footer {
-    background-color: #004080;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
+/* Kontakt */
 
 .map-container {
     margin: 30px auto;
@@ -132,4 +130,21 @@ iframe {
     height: 100%;
     border: none;
 }
+
+
+.contact-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+/* Stopka */
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
 

@@ -12,10 +12,9 @@
     <!-- Sekcja nawigacji -->
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#oferta">Oferta</a></li>
-        <li><a href="#dlaczego-my">Dlaczego My?</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#offer">Oferta</a></li>
+        <li><a href="#why-we">Dlaczego My?</a></li>
+        <li><a href="#contact">Kontakt</a></li>
       </ul>
     </nav>
 
@@ -26,11 +25,11 @@
         Wynajem szalunków stropowych dostosowanych do każdej inwestycji
         budowlanej.
       </p>
-      <a href="#oferta" class="btn">Poznaj naszą ofertę</a>
+      <a href="#offer" class="btn">Poznaj naszą ofertę</a>
     </header>
 
     <!-- Sekcja Oferta -->
-    <section id="oferta">
+    <section id="offer">
       <h2>Nasza Oferta</h2>
       <div class="offer-container">
         <div class="offer-item">
@@ -58,7 +57,7 @@
     </section>
 
     <!-- Sekcja Dlaczego My? -->
-    <section id="dlaczego-my">
+    <section id="why-we">
       <h2>Dlaczego My?</h2>
       <p>
         Nasze szalunki stropowe to gwarancja jakości i bezpieczeństwa na
@@ -74,26 +73,32 @@
     </section>
 
     <!-- Sekcja Kontakt z Mapą Google -->
-    <section id="contact">
-      <h2>Kontakt</h2>
-      <p>
-        Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach i
-        uzyskać ofertę dostosowaną do Twoich potrzeb.
-      </p>
-      <p>Email: <a href="mailto:kontakt@example.com">kontakt@example.com</a></p>
-      <p>Telefon: 123 456 789</p>
-
-      <!-- Mapa Google -->
-      <div class="map-container">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450979!2d144.95592831531685!3d-37.81720997975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5772ddf3cd5001a!2sFederation+Square!5e0!3m2!1spl!2spl!4v1612762405031!5m2!1spl!2spl"
-          width="100%"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        >
-        </iframe>
+    <section id="contact-container">
+      <h2>Dane kontaktowe</h2>
+      <div class="contact-content">
+        <!-- Dane kontaktowe -->
+        <div id="contact-info">
+          <p>
+            Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach
+            i uzyskać ofertę dostosowaną do Twoich potrzeb.
+          </p>
+          <p>
+            Email: <a href="mailto:kontakt@example.com">kontakt@example.com</a>
+          </p>
+          <p>Telefon: 123 456 789</p>
+        </div>
+        <!-- Mapa Google -->
+        <div class="map-container" id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=..."
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          >
+          </iframe>
+        </div>
       </div>
     </section>
 
