@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Główna strona -->
+  <url>
+    <loc>https://szalunkistropowesuwalki.pl/</loc>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Oferta -->
+  <url>
+    <loc>https://szalunkistropowesuwalki.pl/#offer</loc>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Dlaczego my? -->
+  <url>
+    <loc>https://szalunkistropowesuwalki.pl/#why-us</loc>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kontakt -->
+  <url>
+    <loc>https://szalunkistropowesuwalki.pl/#contact</loc>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

@@ -3,108 +3,268 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Szalunki Stropowe Suwałki - Wynajem i Usługi</title>
-    <link rel="stylesheet" type="text/css" href="class-style.css" />
-    <link rel="stylesheet" type="text/css" href="id-style.css" />
-    <link rel="stylesheet" type="text/css" href="media.css" />
+    <meta
+      name="description"
+      content="Profesjonalny wynajem szalunków stropowych w Suwałkach. Sklejki, dźwigary H20, podpory stropowe, głowice krzyżowe i stojaki. Solidne i trwałe rozwiązania dla każdej budowy."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="szalunki stropowe, wynajem szalunków, sklejki szalunkowe, dźwigary H20, podpory stropowe, głowice krzyżowe, Suwałki, budowa, budowlane, sprzęt budowlany"
+    />
+    <link rel="canonical" href="https://szalunkistropowesuwalki.pl/" />
+    <meta
+      property="og:title"
+      content="Wynajem Szalunków Stropowych w Suwałkach - Profesjonalne Usługi"
+    />
+    <meta
+      property="og:description"
+      content="Oferujemy wynajem szalunków stropowych: sklejki, dźwigary H20, podpory i więcej. Sprawdź naszą ofertę i skontaktuj się z nami!"
+    />
+    <meta
+      property="og:image"
+      content="https://szalunkistropowesuwalki.pl/images/offer-main.jpg"
+    />
+    <meta property="og:url" content="https://szalunkistropowesuwalki.pl/" />
+    <meta property="og:type" content="website" />
+    <title>Wynajem Szalunków Stropowych - Suwałki</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css" />
+    <link rel="stylesheet" type="text/css" href="styles/layout.css" />
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
   </head>
+
   <body>
-    <!-- Sekcja nawigacji -->
+    <!-- Nawigacja -->
     <nav>
-      <ul>
-        <li><a href="#offer">Oferta</a></li>
-        <li><a href="#why-we">Dlaczego My?</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
+      <div class="container">
+        <div class="logo">
+          <a href="#">Szalunki Stropowe</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#offer">Oferta</a></li>
+          <li><a href="#why-us">Dlaczego My?</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+        <div class="mobile-menu-icon">
+          <span>&#9776;</span>
+        </div>
+      </div>
     </nav>
 
     <!-- Sekcja główna -->
-    <header id="home">
-      <h1>Profesjonalne Szalunki Stropowe</h1>
-      <p>
-        Wynajem szalunków stropowych dostosowanych do każdej inwestycji
-        budowlanej.
-      </p>
-      <a href="#offer" class="btn">Poznaj naszą ofertę</a>
+    <header>
+      <div class="container">
+        <p>Izmar Mariusz Jonio</p>
+        <h1>Wynajem Szalunków Stropowych</h1>
+        <p>Profesjonalne rozwiązania dla twojej budowy</p>
+        <a href="#offer" class="cta-button">Sprawdź ofertę</a>
+      </div>
     </header>
 
     <!-- Sekcja Oferta -->
-    <section id="offer">
-      <h2>Nasza Oferta</h2>
-      <div class="offer-container">
-        <div class="offer-item">
-          <h3>Szalunki Stropowe DELTA</h3>
-          <p>
-            System szalunków DELTA zapewnia trwałość i łatwość montażu. Idealny
-            do wielkich powierzchni.
-          </p>
+    <section id="offer" class="section">
+      <div class="container">
+        <h2>Nasza Oferta</h2>
+        <div class="offer-items">
+          <div class="offer-item">
+            <img
+              src="images/sklejki-thumbnail.png"
+              alt="Sklejki, płyty szalunkowe"
+              class="offer-image"
+              data-full="images/sklejki-full.png"
+            />
+            <h3>Sklejki, płyty szalunkowe</h3>
+            <p>Trwałe i wytrzymałe materiały do każdej budowy.</p>
+          </div>
+          <div class="offer-item">
+            <img
+              src="images/dzwigar-h20-thumbnail.png"
+              alt="Dźwigary H20"
+              class="offer-image"
+              data-full="images/dzwigar-h20-full.png"
+            />
+            <h3>Dźwigary H20</h3>
+            <p>Solidne dźwigary w różnych wymiarach.</p>
+          </div>
+          <div class="offer-item">
+            <img
+              src="images/podpory-stropowe-thumbnail.png"
+              alt="Podpory stropowe"
+              class="offer-image"
+              data-full="images/podpory-stropowe-full.png"
+            />
+            <h3>Podpory stropowe</h3>
+            <p>Regulowane podpory teleskopowe o dużej nośności.</p>
+          </div>
+          <div class="offer-item">
+            <img
+              src="images/glowica-krzyzowa-thumbnail.png"
+              alt="Podpory stropowe"
+              class="offer-image"
+              data-full="images/glowica-krzyzowa-full.png"
+            />
+            <h3>Głowice krzyżowe (korony)</h3>
+            <p>Solidne głowice zapewniające stabilność stropów.</p>
+          </div>
+          <div class="offer-item">
+            <img
+              src="images/stojaki-trojnogi-thumbnail.png"
+              alt="Stojaki"
+              class="offer-image"
+              data-full="images/stojaki-trojnogi-full.png"
+            />
+            <h3>Stojaki (trójnogi)</h3>
+            <p>Stabilne stojaki ułatwiające montaż.</p>
+          </div>
         </div>
-        <div class="offer-item">
-          <h3>Podpory Teleskopowe</h3>
-          <p>
-            Regulowane podpory teleskopowe o wysokiej nośności. Dostępne w
-            różnych długościach.
-          </p>
-        </div>
-        <div class="offer-item">
-          <h3>Dźwigary i Głowice</h3>
-          <p>
-            Wynajem kompletnych zestawów dźwigarów i głowic do zabezpieczania
-            stropów.
-          </p>
-        </div>
+      </div>
+
+      <!-- Popup do wyświetleia pełnego obrazka -->
+      <div id="popup-container" class="popup-container">
+        <span id="close-popup" class="close-popup">&times;</span>
+        <img class="popup-content" id="popup-image" />
       </div>
     </section>
 
     <!-- Sekcja Dlaczego My? -->
-    <section id="why-we">
-      <h2>Dlaczego My?</h2>
-      <p>
-        Nasze szalunki stropowe to gwarancja jakości i bezpieczeństwa na
-        budowie. Oferujemy elastyczne warunki wynajmu i pełne wsparcie
-        techniczne.
-      </p>
-      <ul>
-        <li>Doświadczenie w branży budowlanej</li>
-        <li>Nowoczesny sprzęt</li>
-        <li>Elastyczne terminy wynajmu</li>
-        <li>Indywidualne podejście do klienta</li>
-      </ul>
-    </section>
-
-    <!-- Sekcja Kontakt z Mapą Google -->
-    <section id="contact-container">
-      <h2>Dane kontaktowe</h2>
-      <div class="contact-content">
-        <!-- Dane kontaktowe -->
-        <div id="contact-info">
-          <p>
-            Skontaktuj się z nami, aby dowiedzieć się więcej o naszych usługach
-            i uzyskać ofertę dostosowaną do Twoich potrzeb.
-          </p>
-          <p>
-            Email: <a href="mailto:kontakt@example.com">kontakt@example.com</a>
-          </p>
-          <p>Telefon: 123 456 789</p>
-        </div>
-        <!-- Mapa Google -->
-        <div class="map-container" id="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=..."
-            width="100%"
-            height="100%"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          >
-          </iframe>
+    <section id="why-us" class="section">
+      <div class="container">
+        <h2>Dlaczego My?</h2>
+        <div class="horizontal-container">
+          <div class="horizontal-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 14"
+              id="Horizontal-Slider-2--Streamline-Flex"
+              height="14"
+              width="14"
+            >
+              <desc>
+                Horizontal Slider 2 Streamline Icon: https://streamlinehq.com
+              </desc>
+              <g
+                id="horizontal-slider-2--adjustment-adjust-controls-fader-horizontal-settings-slider"
+              >
+                <path
+                  id="Union"
+                  fill="#000000"
+                  fill-rule="evenodd"
+                  d="M4.14087 1.53125c-0.08641 -0.27009 -0.22631 -0.51254 -0.42732 -0.713553C3.33954 0.443682 2.82203 0.28125 2.25 0.28125c-0.57203 0 -1.08954 0.162432 -1.463553 0.536446C0.412432 1.19171 0.25 1.70922 0.25 2.28125S0.412432 3.37079 0.786446 3.7448c0.374014 0.37402 0.891524 0.53645 1.463554 0.53645s1.08954 -0.16243 1.46355 -0.53645c0.20101 -0.20101 0.34091 -0.44346 0.42732 -0.71355H13c0.4142 0 0.75 -0.33579 0.75 -0.75s-0.3358 -0.75 -0.75 -0.75H4.14087Zm4.75 4.71875H13c0.4142 0 0.75 0.33579 0.75 0.75s-0.3358 0.75 -0.75 0.75H8.89087c-0.08641 0.27009 -0.22631 0.51254 -0.42732 0.71355C8.08954 8.83757 7.57203 9 7 9c-0.57203 0 -1.08954 -0.16243 -1.46355 -0.53645 -0.20101 -0.20101 -0.34091 -0.44346 -0.42732 -0.71355H1C0.585786 7.75 0.25 7.41421 0.25 7s0.335786 -0.75 0.75 -0.75h4.10913c0.08641 -0.27009 0.22631 -0.51254 0.42732 -0.71355C5.91046 5.16243 6.42797 5 7 5c0.57203 0 1.08954 0.16243 1.46355 0.53645 0.20101 0.20101 0.34091 0.44346 0.42732 0.71355ZM13.75 11.7188c0 -0.5721 -0.1624 -1.0896 -0.5364 -1.4636 -0.3741 -0.37402 -0.8916 -0.53645 -1.4636 -0.53645 -0.572 0 -1.0895 0.16243 -1.4636 0.53645 -0.201 0.201 -0.34086 0.4435 -0.42727 0.7136H1c-0.414214 0 -0.75 0.3357 -0.75 0.75 0 0.4142 0.335786 0.75 0.75 0.75h8.85913c0.08641 0.27 0.22627 0.5125 0.42727 0.7135 0.3741 0.374 0.8916 0.5365 1.4636 0.5365 0.572 0 1.0895 -0.1625 1.4636 -0.5365 0.374 -0.374 0.5364 -0.8915 0.5364 -1.4635Z"
+                  clip-rule="evenodd"
+                  stroke-width="1"
+                ></path>
+              </g>
+            </svg>
+            <h3>Elastyczność wynajmu</h3>
+            <p>Dostosowujemy naszą ofertę do Twojego projektu.</p>
+          </div>
+          <div class="horizontal-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="-0.5 -0.5 16 16"
+              id="Boxes-Stacked--Streamline-Font-Awesome"
+              height="16"
+              width="16"
+            >
+              <desc>
+                Boxes Stacked Streamline Icon: https://streamlinehq.com
+              </desc>
+              <!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M6.479166666666666 0.9666666666666666h-1.0208333333333333c-0.6763020833333332 0 -1.2249999999999999 0.5486979166666667 -1.2249999999999999 1.2249999999999999v2.8583333333333334c0 0.9008854166666667 0.7324479166666666 1.633333333333333 1.633333333333333 1.633333333333333h3.266666666666666c0.9008854166666667 0 1.633333333333333 -0.7324479166666666 1.633333333333333 -1.633333333333333V2.1916666666666664c0 -0.6763020833333332 -0.5486979166666667 -1.2249999999999999 -1.2249999999999999 -1.2249999999999999h-1.0208333333333333v2.0416666666666665c0 0.22458333333333333 -0.18375 0.40833333333333327 -0.40833333333333327 0.40833333333333327h-1.2249999999999999c-0.22458333333333333 0 -0.40833333333333327 -0.18375 -0.40833333333333327 -0.40833333333333327v-2.0416666666666665ZM1.7833333333333332 7.499999999999999c-0.9008854166666667 0 -1.633333333333333 0.7324479166666666 -1.633333333333333 1.633333333333333v3.266666666666666c0 0.9008854166666667 0.7324479166666666 1.633333333333333 1.633333333333333 1.633333333333333h4.083333333333333c0.9008854166666667 0 1.633333333333333 -0.7324479166666666 1.633333333333333 -1.633333333333333V9.133333333333333c0 -0.9008854166666667 -0.7324479166666666 -1.633333333333333 -1.633333333333333 -1.633333333333333h-1.0208333333333333v2.0416666666666665c0 0.22458333333333333 -0.18375 0.40833333333333327 -0.40833333333333327 0.40833333333333327h-1.2249999999999999c-0.22458333333333333 0 -0.40833333333333327 -0.18375 -0.40833333333333327 -0.40833333333333327V7.499999999999999h-1.0208333333333333Zm7.35 6.533333333333332h4.083333333333333c0.9008854166666667 0 1.633333333333333 -0.7324479166666666 1.633333333333333 -1.633333333333333V9.133333333333333c0 -0.9008854166666667 -0.7324479166666666 -1.633333333333333 -1.633333333333333 -1.633333333333333h-1.0208333333333333v2.0416666666666665c0 0.22458333333333333 -0.18375 0.40833333333333327 -0.40833333333333327 0.40833333333333327H10.5625c-0.22458333333333333 0 -0.40833333333333327 -0.18375 -0.40833333333333327 -0.40833333333333327V7.499999999999999h-1.0208333333333333c-0.38281249999999994 0 -0.735 0.13015625 -1.0131770833333331 0.35218749999999993 0.1250520833333333 0.26541666666666663 0.19651041666666666 0.5614583333333333 0.19651041666666666 0.8728124999999999v4.083333333333333c0 0.31135416666666665 -0.07145833333333333 0.6073958333333334 -0.19651041666666666 0.8728124999999999 0.2781770833333333 0.22203124999999999 0.6303645833333332 0.35218749999999993 1.0131770833333331 0.35218749999999993Z"
+                fill="#000000"
+                stroke-width="1"
+              ></path>
+            </svg>
+            <h3>Szeroki asortyment</h3>
+            <p>Różnorodne wymiary szalunków dla różnych potrzeb.</p>
+          </div>
+          <div class="horizontal-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="-0.5 -0.5 24 24"
+              id="Handyman-Fill--Streamline-Outlined-Fill---Material-Symbols"
+              height="24"
+              width="24"
+            >
+              <desc>
+                Handyman Fill Streamline Icon: https://streamlinehq.com
+              </desc>
+              <path
+                fill="#000000"
+                d="M18.304166666666667 21.083333333333336c-0.09583333333333334 0 -0.18366458333333333 -0.01595625 -0.2635416666666667 -0.04791666666666667 -0.07987708333333333 -0.031960416666666665 -0.15970625 -0.08783125 -0.23958333333333334 -0.16770833333333332l-5.797916666666667 -5.797916666666667c-0.07987708333333333 -0.07987708333333333 -0.13574791666666666 -0.15970625 -0.16770833333333332 -0.23958333333333334 -0.031960416666666665 -0.07987708333333333 -0.04791666666666667 -0.16770833333333332 -0.04791666666666667 -0.2635416666666667 0 -0.09583333333333334 0.01595625 -0.18366458333333333 0.04791666666666667 -0.2635416666666667 0.031960416666666665 -0.07987708333333333 0.08783125 -0.15970625 0.16770833333333332 -0.23958333333333334l2.0364583333333335 -2.0364583333333335c0.07987708333333333 -0.07987708333333333 0.15970625 -0.13574791666666666 0.23958333333333334 -0.16770833333333332 0.07987708333333333 -0.031960416666666665 0.16770833333333332 -0.04791666666666667 0.2635416666666667 -0.04791666666666667 0.09583333333333334 0 0.18366458333333333 0.01595625 0.2635416666666667 0.04791666666666667 0.07987708333333333 0.031960416666666665 0.15970625 0.08783125 0.23958333333333334 0.16770833333333332l5.797916666666667 5.797916666666667c0.07987708333333333 0.07987708333333333 0.13574791666666666 0.15970625 0.16770833333333332 0.23958333333333334 0.031960416666666665 0.07987708333333333 0.04791666666666667 0.16770833333333332 0.04791666666666667 0.2635416666666667 0 0.09583333333333334 -0.01595625 0.18366458333333333 -0.04791666666666667 0.2635416666666667 -0.031960416666666665 0.07987708333333333 -0.08783125 0.15970625 -0.16770833333333332 0.23958333333333334l-2.0364583333333335 2.0364583333333335c-0.07987708333333333 0.07987708333333333 -0.15970625 0.13574791666666666 -0.23958333333333334 0.16770833333333332 -0.07987708333333333 0.031960416666666665 -0.16770833333333332 0.04791666666666667 -0.2635416666666667 0.04791666666666667ZM4.671875 21.083333333333336c-0.09583333333333334 0 -0.18767520833333334 -0.01595625 -0.2755208333333333 -0.04791666666666667 -0.087845625 -0.031960416666666665 -0.17169979166666666 -0.08783125 -0.2515625 -0.16770833333333332l-2.0125 -2.0125c-0.07986270833333334 -0.07987708333333333 -0.13576229166666667 -0.16373125 -0.16770833333333332 -0.2515625 -0.03194604166666667 -0.08783125 -0.04791666666666667 -0.1796875 -0.04791666666666667 -0.2755208333333333 0 -0.09583333333333334 0.015970625 -0.18366458333333333 0.04791666666666667 -0.2635416666666667 0.03194604166666667 -0.07987708333333333 0.087845625 -0.15970625 0.16770833333333332 -0.23958333333333334L7.522916666666666 12.434375h2.0364583333333335l0.9104166666666667 -0.9104166666666667 -4.192708333333334 -4.192708333333334h-1.365625L1.9166666666666667 4.336458333333334 4.288541666666666 1.9645833333333333l2.994791666666667 2.994791666666667v1.365625l4.192708333333334 4.192708333333334 3.1145833333333335 -3.1145833333333335 -1.6052083333333333 -1.6052083333333333 1.3416666666666666 -1.3416666666666666h-2.707291666666667l-0.43125 -0.43125 3.066666666666667 -3.066666666666667 0.43125 0.43125v2.707291666666667l1.3416666666666666 -1.3416666666666666 4.048958333333333 4.048958333333333c0.23958333333333334 0.23958333333333334 0.4272729166666667 0.5151041666666667 0.5630208333333334 0.8265625000000001 0.13574791666666666 0.31145833333333334 0.20364583333333333 0.6428979166666666 0.20364583333333333 0.9942708333333334 0 0.31946041666666664 -0.051893749999999995 0.62689375 -0.15572916666666667 0.9223958333333334S20.436458333333334 10.110416666666667 20.244791666666668 10.350000000000001L18.208333333333336 8.313541666666667l-1.3416666666666666 1.3416666666666666 -1.2458333333333333 -1.2458333333333333L10.565625 13.464583333333335v2.0125L5.175000000000001 20.867708333333333c-0.07987708333333333 0.07987708333333333 -0.15970625 0.13574791666666666 -0.23958333333333334 0.16770833333333332 -0.07987708333333333 0.031960416666666665 -0.16770833333333332 0.04791666666666667 -0.2635416666666667 0.04791666666666667Z"
+                stroke-width="1"
+              ></path>
+            </svg>
+            <h3>Łatwy montaż</h3>
+            <p>Bez dodatkowych narzędzi, szybki montaż i demontaż.</p>
+          </div>
+          <div class="horizontal-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="-0.5 -0.5 24 24"
+              id="Verified-Fill--Streamline-Outlined-Fill---Material-Symbols"
+              height="24"
+              width="24"
+            >
+              <desc>
+                Verified Fill Streamline Icon: https://streamlinehq.com
+              </desc>
+              <path
+                fill="#000000"
+                d="m8.289583333333335 21.5625 -1.8208333333333333 -3.1145833333333335 -3.6177083333333333 -0.7427083333333334 0.40729166666666666 -3.521875L0.9583333333333334 11.5l2.3 -2.659375 -0.40729166666666666 -3.521875 3.6177083333333333 -0.7427083333333334L8.289583333333335 1.4375 11.5 2.9229166666666666 14.710416666666667 1.4375l1.8447916666666668 3.138541666666667 3.59375 0.7427083333333334 -0.40729166666666666 3.521875L22.041666666666668 11.5l-2.3 2.683333333333333 0.40729166666666666 3.521875 -3.59375 0.7427083333333334L14.710416666666667 21.5625 11.5 20.077083333333334 8.289583333333335 21.5625Zm2.1802083333333333 -6.876041666666667L15.908333333333335 9.295833333333333l-1.078125 -0.9822916666666667 -4.360416666666667 4.3125 -2.276041666666667 -2.371875 -1.1020833333333333 1.078125 3.3781250000000003 3.354166666666667Z"
+                stroke-width="1"
+              ></path>
+            </svg>
+            <h3>Trwałość i jakość</h3>
+            <p>Nasze produkty są wytrzymałe i gwarantują bezpieczeństwo.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Sekcja stopki -->
+    <!-- Sekcja Kontakt -->
+    <section id="contact" class="section">
+      <div class="container contact-container">
+        <div class="contact-header">
+          <h2>Skontaktuj się z nami</h2>
+          <p><strong>Zapraszamy do kontaktu i skorzystania z naszych usług wynajmu szalunków stropowych. Razem zrealizujemy Twój projekt z sukcesem!</strong></p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-details">
+            <p><strong>Izmar Mariusz Jonio</strong></p>
+            <p>NIP: 8442084854</p>
+            <p>Telefon: +48 514 890 931</p>
+          </div>
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.834795621977!2d22.87787821572484!3d54.08148539695874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e10179fe270fad%3A0x43e8081f0a894d43!2sZielone%20Kamedulskie%2029%2C%2016-402%20Zielone%20Kamedulskie%2C%20Poland!5e0!3m2!1sen!2spl!4v1697637750207!5m2!1sen!2spl"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+
+    <!-- Stopka -->
     <footer>
-      <p>&copy; 2024 Szalunki Stropowe | Wszystkie prawa zastrzeżone</p>
+      <div class="container">
+        <p>
+          &copy; 2024 Wynajem Szalunków Stropowych. Wszystkie prawa zastrzeżone.
+        </p>
+      </div>
     </footer>
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>
