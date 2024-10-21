@@ -1,8 +1,16 @@
-document.querySelector('.mobile-menu-icon').addEventListener('click', () => {
-    const navMenu = document.querySelector('.nav-menu');
-    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+// Otwieranie/Zamykanie menu po kliknięciu ikony hamburgera
+const menuIcon = document.getElementById('mobile-menu-icon');
+const navMenu = document.querySelector('.nav-menu');
+menuIcon.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
 });
 
+// Chowanie menu po kliknięciu w dowolny link
+document.querySelectorAll('.nav-menu li a').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active'); // Ukrywa menu po kliknięciu w link
+    });
+});
 
 // Pobierz wszystkie obrazy oferty
 const offerImages = document.querySelectorAll('.offer-image');
