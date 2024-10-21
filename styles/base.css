@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +20,10 @@ h1, h2, h3 {
     margin-bottom: 20px;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
 p {
     text-align: center;
     line-height: 1.6;
@@ -32,7 +37,7 @@ a {
 
 .container {
     width: 90%;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .section {
@@ -56,7 +61,10 @@ a {
 
 footer {
     background-color: #004080;
-    color: white;
-    text-align: center;
     padding: 20px 0;
+}
+
+footer > div > p {
+    color: white;
+    text-align: left; 
 }

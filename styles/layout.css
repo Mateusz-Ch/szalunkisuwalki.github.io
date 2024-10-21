@@ -56,7 +56,7 @@ header {
     background-size: cover; /* Dopasowanie obrazu do rozmiaru nagłówka */
     background-position: center; /* Centrowanie obrazu */
     background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
-    height: 400px; /* Wysokość nagłówka */
+    height: 100vh; /* Wysokość nagłówka */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,27 +146,37 @@ header p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 20px;
+    display: flex; /* Flexbox dla ułożenia SVG i tekstu */
+    align-items: center; /* Wyrównanie do środka */
+    justify-content: center;
+    gap: 15px; /* Przerwa między SVG a treścią */
 }
 
 .horizontal-item svg {
+    flex-shrink: 0; /* Zapobiega skalowaniu SVG */
     width: 60px;
     height: 60px;
-    float: left;
-    margin-right: 15px;
 }
 
-.horizontal-item h3 {
-    margin-top: 0;
+.item-content {
+    display: flex;
+    flex-direction: column; /* Nagłówek nad tekstem */
 }
 
-.horizontal-item p {
-    margin-left: 80px;
+.item-content h3 {
+    margin: 0 0 10px 0; /* Odstęp między nagłówkiem a tekstem */
+}
+
+.item-content p {
+    text-align: justify;
 }
 
 /* Stylizacja sekcji kontaktowej */
 .contact-container {
     display: flex;
     flex-direction: column;
+    align-content: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -174,19 +184,11 @@ header p {
     text-align: center;
 }
 
-.contact-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-}
-
 .contact-details {
     flex: 1;
+    flex-wrap: wrap;
     min-width: 250px;
-    max-width: 45%;
-    align-content: center;
-    justify-content: center;
+    max-width: 100%;
 }
 
 .contact-details p {
