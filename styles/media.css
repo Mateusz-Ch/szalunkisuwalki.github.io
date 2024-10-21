@@ -67,14 +67,28 @@
     }
 
     .horizontal-container {
-        flex-direction: column; /* Jedna kolumna na mniejszych ekranach */
+        flex-direction: column;
     }
 
     .horizontal-item {
-        width: 100%; /* Pełna szerokość na mniejszych ekranach */
+        width: 100%;
     }
 
     .horizontal-item svg {
         margin-bottom: 10px;
+    }
+
+    .ordered-container {
+        padding-left: 10px;
+    }
+    
+    .ordered-container h3 {
+        font-size: 1.1em;
+        padding: 10px 0 5px;
+    }
+
+    .ordered-container p,
+    .ordered-container ul li {
+        font-size: 0.95em; 
     }
 }
