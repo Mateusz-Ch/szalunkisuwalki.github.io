@@ -245,3 +245,13 @@ header p {
 .info-container p {
     text-align: justify;
 }
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
