@@ -228,7 +228,7 @@ header p {
     text-align: justify;
 }
 
-.ordered-container h3 {
+.ordered-container li h3 {
     text-align: left;
     padding: 15px;
     margin: 0px;
