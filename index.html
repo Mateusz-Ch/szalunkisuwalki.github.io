@@ -9,7 +9,7 @@
     >
     <meta
       name="description"
-      content="Profesjonalny wynajem szalunków stropowych w Suwałkach. Sklejki, dźwigary H20, podpory stropowe, głowice krzyżowe i stojaki. Solidne i trwałe rozwiązania dla każdej budowy."
+      content="Wynajem szalunków stropowych w Suwałkach. Sklejki, dźwigary H20, podpory stropowe, głowice krzyżowe i stojaki. Rozwiązania dla każdej budowy."
     />
     <meta name="robots" content="index, follow" />
     <meta
@@ -23,7 +23,7 @@
     />
     <meta
       property="og:description"
-      content="Oferujemy wynajem szalunków stropowych: sklejki, dźwigary H20, podpory i więcej. Sprawdź naszą ofertę i skontaktuj się z nami!"
+      content="Oferujemy wynajem szalunków stropowych: sklejki, dźwigary H20, podpory i więcej. Sprawdź naszą ofertę i skontaktuj się z nami już teraz!"
     />
     <meta
       property="og:image"
@@ -31,6 +31,24 @@
     />
     <meta property="og:url" content="https://szalunkistropowesuwalki.pl/" />
     <meta property="og:type" content="website" />
+
+    <!-- Dane strukturalne - JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Izmar Mariusz Jonio",
+        "url": "https://szalunkistropowesuwalki.pl",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+48 514 890 931",
+          "contactType": "customer service",
+          "areaServed": "PL",
+          "availableLanguage": "Polish"
+        }
+      }
+    </script>
+
     <title>Wynajem Szalunków Stropowych - Suwałki</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css" />
     <link rel="stylesheet" type="text/css" href="styles/layout.css" />
@@ -49,7 +67,7 @@
           <li><a href="#why-us">Dlaczego My?</a></li>
           <li><a href="#contact">Kontakt</a></li>
         </ul>
-        <div class="mobile-menu-icon" id="mobile-menu-icon">
+        <div class="mobile-menu-icon" id="mobile-menu-icon" aria-label="Otwórz menu nawigacji">
           <span>&#9776;</span>
         </div>
       </div>
@@ -86,9 +104,11 @@
               alt="Dźwigary H20"
               class="offer-image"
               data-full="images/dzwigar-h20-full.png"
+              loading="lazy"
             />
             <h3>Dźwigary H20</h3>
             <p>Solidne dźwigary w różnych wymiarach.</p>
+            <a href="#contact" class="contact-link">Dowiedz się więcej</a>
           </div>
           <div class="offer-item">
             <img
@@ -96,6 +116,7 @@
               alt="Podpory stropowe"
               class="offer-image"
               data-full="images/podpory-stropowe-full.png"
+              loading="lazy"
             />
             <h3>Podpory stropowe</h3>
             <p>Regulowane podpory teleskopowe o dużej nośności.</p>
@@ -106,6 +127,7 @@
               alt="Głowice krzyżowe"
               class="offer-image"
               data-full="images/glowica-krzyzowa-full.png"
+              loading="lazy"
             />
             <h3>Głowice krzyżowe (korony)</h3>
             <p>Solidne głowice zapewniające stabilność stropów.</p>
@@ -116,11 +138,13 @@
               alt="Stojaki"
               class="offer-image"
               data-full="images/stojaki-trojnogi-full.png"
+              loading="lazy"
             />
             <h3>Stojaki (trójnogi)</h3>
             <p>Stabilne stojaki ułatwiające montaż.</p>
           </div>
         </div>
+        <a href="#contact" class="cta-button">Zamów teraz</a>
       </div>
 
       <!-- Popup do wyświetleia pełnego obrazka -->
@@ -159,7 +183,8 @@
             </svg>
             <div class="item-content">
               <h3>Elastyczność wynajmu</h3>
-              <p>Oferujemy elastyczne warunki wynajmu, które można dostosować do długości trwania Twojego projektu. Wynajmij szalunki tylko wtedy, kiedy ich potrzebujesz!</p>
+              <p>Oferujemy elastyczne warunki dzierżawy, które można dostosować do długości trwania Twojego projektu. Wynajmij szalunki tylko wtedy, kiedy ich potrzebujesz!</p>
+              <a href="#contact" class="contact-link">Skontaktuj się z nami</a>
             </div>
           </div>
           <div class="horizontal-item">
@@ -229,7 +254,7 @@
     <section id="contact" class="section">
       <div class="container contact-container">
         <div class="contact-header">
-          <h2>Skontaktuj się z nami</h2>
+          <h2>Skontaktuj się z nami już teraz!</h2>
           <p>Zapraszamy do kontaktu i skorzystania z naszych usług wynajmu szalunków stropowych. Razem zrealizujemy Twój projekt z sukcesem!</p>
         </div>
         <div class="contact-details">
@@ -250,6 +275,6 @@
       </div>
     </footer>
 
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" defer></script>
   </body>
 </html>
