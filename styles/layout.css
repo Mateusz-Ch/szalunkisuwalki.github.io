@@ -217,8 +217,31 @@ header p {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-  }
+}
   
 .contact-link:hover {
-  background-color: #003366;
+    background-color: #003366;
+}
+
+.ordered-container {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.ordered-container h3 {
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
+}
+
+.ordered-container p {
+    text-align: left;
+}
+
+.ordered-container ul {
+    padding-left: 20px;
+}
+
+.info-container p {
+    text-align: justify;
 }
