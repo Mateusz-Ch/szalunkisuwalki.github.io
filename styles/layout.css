@@ -82,9 +82,15 @@ header p {
 
 /* Sekcja Oferta */
 .offer-items {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Ustawia minimalny rozmiar kolumn */
+    gap: 30px; /* Odstęp między komórkami */
+}
+
+.offer-items > * {
+    min-width: 350px; /* Minimalna szerokość elementów w komórkach */
+    max-width: 400px;
+    width: 100%; /* Dostosowanie szerokości elementu do komórki */
 }
 
 .offer-item {
@@ -230,7 +236,7 @@ header p {
 
 .ordered-container li h3 {
     text-align: left;
-    padding: 15px;
+    padding-top: 15px;
     margin: 0px;
 }
 
@@ -238,12 +244,14 @@ header p {
     text-align: left;
 }
 
-.ordered-container ul {
+.info-container ul {
     padding-left: 20px;
+    list-style-type: none;
 }
 
 .info-container p {
     text-align: justify;
+    text-indent: 20px;
 }
 
 .learn-more {

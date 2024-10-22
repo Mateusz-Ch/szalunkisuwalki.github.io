@@ -8,6 +8,12 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .offer-items {
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+}
+
 @media (max-width: 768px) {
     /* Nawigacja mobilna */
     .nav-menu {
@@ -38,6 +44,7 @@
 
     /* Oferta w widoku mobilnym */
     .offer-items {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
