@@ -9,9 +9,15 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #fdfdfd;
     margin: 0;
     padding: 0;
+}
+
+main {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto; /* Wyśrodkowanie */
 }
 
 h1, h2, h3 {
@@ -42,7 +48,7 @@ a {
 
 .section {
     padding: 60px 0;
-    background-color: #fff;
+    background-color: #fdfdfd;
 }
 
 .cta-button {
