@@ -87,17 +87,11 @@ header p {
     gap: 30px; /* Odstęp między komórkami */
 }
 
-.offer-items > * {
-    min-width: 350px; /* Minimalna szerokość elementów w komórkach */
-    max-width: 400px;
-    width: 100%; /* Dostosowanie szerokości elementu do komórki */
-}
-
 .offer-item {
     background-color: #fff;
     padding: 20px;
     margin: 10px;
-    width: 30%;
+
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: center;
