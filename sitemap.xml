@@ -3,34 +3,42 @@
   
   <!-- Główna strona -->
   <url>
-    <loc>https://szalunkistropowesuwalki.pl/</loc>
+    <loc>https://szalunkisuwalki.pl/</loc>
     <lastmod>2024-10-18</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Oferta -->
   <url>
-    <loc>https://szalunkistropowesuwalki.pl/#offer</loc>
+    <loc>https://szalunkisuwalki.pl/#offer</loc>
     <lastmod>2024-10-18</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Dlaczego my? -->
   <url>
-    <loc>https://szalunkistropowesuwalki.pl/#why-us</loc>
+    <loc>https://szalunkisuwalki.pl/#why-us</loc>
     <lastmod>2024-10-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
+  <!-- Dowiedz się więcej o szalunkach -->
+  <url>
+    <loc>https://szalunkisuwalki.pl/#how-to-select-formwork</loc>
+    <lastmod>2024-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Kontakt -->
   <url>
-    <loc>https://szalunkistropowesuwalki.pl/#contact</loc>
+    <loc>https://szalunkisuwalki.pl/#contact</loc>
     <lastmod>2024-10-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
   </url>
 
 </urlset>

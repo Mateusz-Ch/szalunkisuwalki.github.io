@@ -1,6 +1,6 @@
 # Pozwolenie na indeksowanie wszystkich treści
 User-agent: *
-Disallow:
+Allow: /
 
 # Blokowanie dostępu do katalogów technicznych
 Disallow: /admin/
@@ -11,4 +11,4 @@ Disallow: /styles/
 Disallow: /private/
 
 # Zgłoszenie lokalizacji pliku sitemap
-Sitemap: https://szalunkistropowesuwalki.pl/sitemap.xml
+Sitemap: https://szalunkisuwalki.pl/sitemap.xml
